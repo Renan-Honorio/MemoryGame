@@ -1,0 +1,69 @@
+body{
+    background-image: url(..//imgTelaINicial/rick-and-morty-1200x900-1.jpg);
+    background-position: right 0; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.login--form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login--header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.login--header h1{
+    background-image: linear-gradient(rgba(14, 241, 14, 0.87), rgb(221, 221, 81));
+    font-size: 1.5em;
+}
+
+.login__button{
+    background-color: rgb(187, 255, 0) ;
+    border-radius: 8px;
+    color: rgb(67, 15, 190);
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login__input{
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: yellow;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(37, 194, 16, 0.637);
+}
+
+.login__button:disabled{
+    background-color: #eee;
+    color: #aaa;
+}
+
+p{
+    position: absolute;
+    bottom: 0;
+    right: 44px;
+    color: rgb(243, 239, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+audio{
+    position: absolute;
+    top: 10px;
+    width: 108px;
+}
